@@ -50,6 +50,7 @@ $api->version('v1', function ($api) {
     $api->get('get-trackers','App\Http\Controllers\Api\V1\TrackersController@index');
 });
 
+
 $api->version('v2', function ($api) {
     $api->get('users/{id}',function($id)
     {
